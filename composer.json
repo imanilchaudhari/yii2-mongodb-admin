@@ -1,0 +1,39 @@
+{
+    "name": "imanilchaudhari/yii2-mongodb-admin",
+    "description": "Auth manager for Yii2 based on MongoDB (RBAC Manager)",
+    "keywords": ["yii", "admin", "auth", "rbac"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/imanilchaudhari/yii2-mongodb-admin/issues",
+        "source": "https://github.com/imanilchaudhari/yii2-mongodb-admin"
+    },
+    "authors": [
+        {
+            "name": "Anil Chaudhari",
+            "email": "imanilchaudhari@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0.7",
+        "yiisoft/yii2-mongodb": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "~2.0"
+    },
+    "suggest": {
+        "yiisoft/yii2-bootstrap": "Used when using layout 'left-menu', 'right-menu' or 'top-menu'"
+    },
+    "autoload": {
+        "psr-4": {
+            "imanilchaudhari\\mongodb\\admin\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

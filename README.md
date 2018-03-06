@@ -23,4 +23,4 @@ Or, you may add
 ```
 to the require section of your `composer.json` file and execute `php composer.phar update`.
 
-[**Highly Inspired By Yii2 Admin**](https://github.com/mdmsoft/yii2-admin)
+[**MongoDB version of Yii2 Admin**](https://github.com/mdmsoft/yii2-admin)
